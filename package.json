@@ -1,0 +1,23 @@
+{
+  "name": "nsnw1",
+  "version": "1.0.0",
+  "description": "no server november challenge 2\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dweek 1 challenge 2 2018",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "serverless",
+    "node.js"
+  ],
+  "author": "Apotheone",
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "serverless": "^1.32.0"
+  }
+}

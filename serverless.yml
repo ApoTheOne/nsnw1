@@ -1,0 +1,12 @@
+service: NoServerNov
+
+provider:
+    name: aws
+    runtime: nodejs8.10
+    profile: default
+
+functions:
+    tweetDadJoke:
+        handler: handler.tweetDadJoke
+        events:
+            - schedule: rate(60 minutes)
